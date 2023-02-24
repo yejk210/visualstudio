@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- 중앙 정렬하고 싶은 테그에 width 속성을 부여하고 margin 속성을 0 auto로 입력 -->
+<html lang="en">
+<head>
+    <title>Ellipsis</title>
+    <style>
+        h1,p {
+            width: 300px;
+        }
+        .ellipsis {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="ellipsis">Lorem ipsum dolor sit, amet consectetur 
+        adipisicing elit. Praesentium, eos.</h1>
+    <p class="ellipsis">Lorem ipsum dolor sit, amet consectetur 
+        adipisicing elit. Praesentium, eos.</p>
+</body>
+</html>

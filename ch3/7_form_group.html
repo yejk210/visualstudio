@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- <fieldset> 요소는 하나의 그룹으로 묶은 요소를 주면으로 박스 모양의 선을 그려준다. -->
+<html lang="en">
+<head>
+    <style>
+        fieldset {
+            background: aliceblue;
+        }
+    </style>
+    <title>Form Basic</title>
+</head>
+<body>
+    <fieldset>
+        <legend><b>입력 양식</b></legend>
+        <form>
+                <label for="name">이름</label>
+                <input id="name" type="text" name="name"/><br/>
+
+                <label for="email">이메일</label>
+                <input id="email" type="email" name="email"/><br/>
+
+                <label for="gender">성별</label>
+                <input id="male" type="radio" name="male"/>
+                <label for="male">남성</label>
+                <input id="female" type="radio" name="female"/>
+                <label for="female">여성</label><br/>
+
+                <label for="birthdate">생년월일</label>
+                <input id="birthdate" type="date" name="birthdate"/><br/>
+
+                <label for="phone">전화번호</label>
+                <input id="phone" type="tel" name="phone"/><br/>
+                
+                <input type="reset" name="초기화"/><br/>
+
+                <input type="submit" name="제출"/>
+        </form>
+    </fieldset>
+</body>
+</html>
